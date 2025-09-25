@@ -1,4 +1,4 @@
-module lorebook_user_account
+module lorebook_middleware
 
 go 1.25.1
 
