@@ -1,7 +1,5 @@
-module lorebook_middleware
+module github.com/LoreBook-AI/middleware
 
 go 1.25.1
 
-require (
-	github.com/golang-jwt/jwt/v5 v5.3.0
-)
+require github.com/golang-jwt/jwt/v5 v5.3.0
