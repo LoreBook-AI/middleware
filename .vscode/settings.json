@@ -1,0 +1,26 @@
+{
+  // Usa o gopls (Language Server Protocol do Go)
+  "go.useLanguageServer": true,
+
+  // Ativa análise de código com gopls
+  "gopls": {
+    "ui.semanticTokens": true,
+    "usePlaceholders": true,
+    "completeUnimported": true,
+    "staticcheck": true
+  },
+
+  // Formatação automática ao salvar
+  "editor.formatOnSave": true,
+
+  // Organiza imports automaticamente
+  "go.formatTool": "gofmt",
+
+  // Configura lint básico (você pode instalar golangci-lint mais pra frente)
+  "go.lintTool": "staticcheck",
+  "go.lintOnSave": "package",
+
+  // Testes em Go
+  "go.testFlags": ["-v"],
+  "go.testOnSave": false
+}
